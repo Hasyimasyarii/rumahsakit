@@ -1,0 +1,248 @@
+body {
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background: linear-gradient(blue, red, pink);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 174, 255);
+    margin: -10px;
+    padding: 20px 150px;
+}
+
+.left {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.background{
+    position: absolute;
+    z-index: -1;
+    margin-left: -10px;
+    background-image: radial-gradient(cyan 0%, black 20%, black 40%);
+    width: 100%;
+    height: 100%;
+}
+
+.backdrop{
+    position: absolute;
+    margin-left: -10px;
+    width: 100%;
+    height: 100%;
+}
+
+.jumbotron {
+    color: white;
+    text-align: center;
+    padding-bottom: 260px;
+}
+
+.jumbotron h2{
+    margin-top: 200px;
+    font-size: 60px;
+}
+
+form input{
+    width: 500px;
+    height: 30px;
+}
+
+form button{
+    border: none;
+    width: 100px;
+    height: 36px;
+    margin-left: -5px;
+    font-size: 16px;
+    background-color: rgb(0, 174, 255);
+    color: white;
+    font-weight: bold;
+}
+
+a.order {
+    text-decoration: none;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+a.order:hover{
+    border-radius: 100px;
+    background-color: white;
+    color: rgb(0, 174, 255);
+    transition: 0.5s;
+    padding: 5px 20px;
+}
+
+img {
+    width: 20em;
+    height: 20em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 5px solid;
+}
+
+.button {
+    color: white;
+    border-radius: 20px;
+    background-color: #04AA6D!important;
+    margin-bottom: 100px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.article p{
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 10px !important;
+    color: black;
+    font-weight: bold;
+    background-color: #04AA6D!important;
+}
+
+.article h2 {
+    text-align: center;
+    color: black;
+    border-radius: 500px;
+    background-color: #04AA6D!important;
+    margin-bottom: 15px;
+    padding-right: 19px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.card-body2 h2 {
+    text-align: center;
+    color: black;
+    border-radius: 500px;
+    background-color: #04AA6D!important;
+    margin-bottom: 15px;
+    padding-right: 19px;
+}
+
+.card-body2 h3 {
+    text-align: center;
+    color: black;
+    border-radius: 500px;
+    background-color: #04AA6D!important;
+    margin-bottom: 16px;
+    padding-right: 19px;
+}
+
+.card-body2 p {
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 10px !important;
+    color: black;
+    font-weight: bold;
+    background-color: #04AA6D!important;
+}    
+
+.icu h1{
+    text-align: center;
+    color: black;
+    border-radius: 500px;
+    background-color: #04AA6D!important;
+    margin-bottom: 15px;
+    padding-right: 19px;
+}
+
+.icu p {
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 10px !important;
+    color: black;
+    font-weight: bold;
+    background-color: #04AA6D!important;
+}
+
+.icu img {
+    margin: 3px 10px 7px 0;
+    padding: 1px;
+    width: 1000px;
+    margin: auto;
+}
+
+.sarana h1{
+    text-align: center;
+    color: black;
+    border-radius: 500px;
+    background-color: #04AA6D!important;
+    margin-bottom: 15px;
+    padding-right: 19px;
+}
+
+.sarana p {
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 10px !important;
+    color: black;
+    font-weight: bold;
+    background-color: #04AA6D!important;
+}
+
+.sarana img {
+    margin: 3px 10px 7px 0;
+    padding: 1px;
+    width: 500px;
+    margin: auto;
+}
+
+.icu h2{ 
+    text-align: center;
+    color: black;
+    border-radius: 500px;
+    background-color: #04AA6D!important;
+    margin-bottom: 16px;
+    padding-right: 19px;
+}
+
+.icu img{
+    margin: 3px 10px 7px 0;
+    padding: 1px;
+    width: 500px;
+    margin: auto;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.tt1 {
+    text-align: center;
+    color: black;
+    border-radius: 500px;
+    background-color: #04AA6D!important;
+    margin-bottom: 16px;
+    padding-right: 19px;
+}
+
+
+.hub h1{
+    text-align: center;
+    color: black;
+    border-radius: 100px;
+    background-color: lightblue;
+    margin-bottom: 16px;
+    padding-right: 19px;
+}
+
+.hub p {
+    color: black;
+    border-radius: 0px;
+    background-color: lightblue;
+    margin-bottom: 10px;
+    padding-left: 20px;
+
+}
+
+video {
+    width: 20%;
+    height: auto;
+    margin-left: 40%;
+}
